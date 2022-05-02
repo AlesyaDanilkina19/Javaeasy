@@ -13,11 +13,8 @@ public class HomeWorkApp {
     public static void checkSumSign() {
         int a = 9, b = 3;
         int sum = a + b;
-        if (sum >= 0) {
-            System.out.println("Сумма положительная");
-        } else {
-            System.out.println("Сумма отрицательная");
-        }
+        System.out.println(sum >= 0  ? "Сумма положительная" : "Сумма отрицательная");
+
     }
     public static void printColor() {
         int value = 99;
